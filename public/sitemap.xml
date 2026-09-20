@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://veloura-events.vercel.app/</loc>
+    <loc>https://veloura-events-zeta.vercel.app/</loc>
   </url>
 
   <url>
-    <loc>https://veloura-events.vercel.app/about</loc>
+    <loc>https://veloura-events-zeta.vercel.app/about</loc>
   </url>
 
   <url>
-    <loc>https://veloura-events.vercel.app/services</loc>
+    <loc>https://veloura-events-zeta.vercel.app/services</loc>
   </url>
 
   <url>
-    <loc>https://veloura-events.vercel.app/gallery</loc>
+    <loc>https://veloura-events-zeta.vercel.app/gallery</loc>
   </url>
 
   <url>
-    <loc>https://veloura-events.vercel.app/process</loc>
+    <loc>https://veloura-events-zeta.vercel.app/process</loc>
   </url>
 
   <url>
-    <loc>https://veloura-events.vercel.app/contact</loc>
+    <loc>https://veloura-events-zeta.vercel.app/contact</loc>
   </url>
 
 </urlset>
