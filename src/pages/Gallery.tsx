@@ -58,7 +58,7 @@ function Gallery() {
             <img
               src={gallery02}
               alt="Pakistani bridal editorial"
-              loading="lazy"
+              
             />
             <span>02 · BRIDAL EDITORIAL</span>
           </div>
@@ -67,7 +67,7 @@ function Gallery() {
             <img
               src={gallery03}
               alt="Pakistani wedding tablescape"
-              loading="lazy"
+              
             />
             <span>03 · TABLESCAPE</span>
           </div>
@@ -76,7 +76,7 @@ function Gallery() {
             <img
               src={gallery04}
               alt="Luxury Pakistani mehndi celebration"
-              loading="lazy"
+             
             />
             <span>04 · MEHNDI CELEBRATION</span>
           </div>
@@ -85,7 +85,7 @@ function Gallery() {
             <img
               src={gallery05}
               alt="Pakistani bridal details"
-              loading="lazy"
+             
             />
             <span>05 · BRIDAL DETAILS</span>
           </div>
@@ -94,7 +94,7 @@ function Gallery() {
             <img
               src={gallery06}
               alt="Luxury wedding venue"
-              loading="lazy"
+             
             />
             <span>06 · VENUE</span>
           </div>
@@ -103,7 +103,7 @@ function Gallery() {
             <img
               src={gallery07}
               alt="Pakistani destination wedding"
-              loading="lazy"
+              
             />
             <span>07 · DESTINATION WEDDING</span>
           </div>
@@ -112,7 +112,7 @@ function Gallery() {
             <img
               src={gallery08}
               alt="Elegant Pakistani wedding reception details"
-              loading="lazy"
+              
             />
             <span>08 · EVENING DETAILS</span>
           </div>
