@@ -1252,469 +1252,6 @@
   background-color: transparent;
   color: var(--gold);
 }
-
-
-
-
-/* TABLET */
-
-@media (max-width: 1000px) {
-  .nav-links {
-    gap: 18px;
-  }
-
-  .nav-button {
-    padding: 10px 15px;
-  }
-
-  .hero {
-    gap: 40px;
-  }
-
-  .hero-image {
-    height: 500px;
-  }
-}
-
-
-/* MOBILE */
-
-@media (max-width: 768px) {
-
-  body {
-    overflow-x: hidden;
-  }
-
-
-  /* NAVBAR */
-
-  
-
-  .navbar {
-    padding: 20px 5%;
-    flex-wrap: wrap;
-    row-gap: 18px;
-    column-gap: 20px;
-  }
-.nav-links {
-  display: flex;
-  order: 3;
-  width: 100%;
-  justify-content: space-between;
-  gap: 10px;
-  padding-top: 14px;
-  border-top: 1px solid rgba(74, 14, 27, 0.15);
-}
-
-.nav-links a {
-  font-size: 10px;
-  white-space: nowrap;
-}
-
-  .nav-button {
-    margin-left: auto;
-    padding: 10px 14px;
-    font-size: 10px;
-  }
-
-
-  /* HOME */
-
-  .hero {
-    min-height: auto;
-    padding: 60px 5%;
-    grid-template-columns: 1fr;
-    gap: 45px;
-  }
-
-  .hero h1 {
-    font-size: clamp(55px, 16vw, 80px);
-  }
-
-  .hero-description {
-    font-size: 14px;
-  }
-
-  .hero-buttons {
-    flex-wrap: wrap;
-  }
-
-  .hero-image {
-    height: 450px;
-  }
-
-
-  /* ABOUT HERO */
-
-  .about-hero {
-    min-height: 100vh;
-    padding: 40px 6%;
-  }
-
-  .about-top-label {
-    left: 6%;
-    top: 40px;
-  }
-
-.about-hero-title {
-  position: absolute;
-  top: 14%;
-  left: 6%;
-  width: 85%;
-  z-index: 3;
-}
-
-.about-hero-title h1 {
-  font-size: clamp(55px, 15vw, 82px);
-  line-height: 0.9;
-}
-
-.about-hero-title h1 span {
-  display: block;
-  margin-left: 35px;
-}
-
-.about-hero-image {
-  position: absolute;
-  top: 42%;
-  right: 6%;
-  width: 72%;
-  height: 34%;
-  z-index: 1;
-}
-
-  .about-hero-description {
-  bottom: 5%;
-  left: 6%;
-  width: 210px;
-}
-
-  /* ABOUT PHILOSOPHY */
-
-  .about-philosophy {
-    min-height: auto;
-    padding: 60px 5%;
-    grid-template-columns: 1fr;
-    gap: 35px;
-  }
-
-  .philosophy-image {
-    min-height: 450px;
-  }
-
-  .philosophy-panel {
-    min-height: 500px;
-    padding: 60px 40px;
-  }
-
-
-  /* ABOUT APPROACH */
-
-  .about-approach {
-    padding: 80px 6%;
-  }
-
-  .approach-words {
-    grid-template-columns: 1fr;
-    gap: 55px;
-    margin-top: 60px;
-  }
-
-  .approach-item,
-  .approach-item:first-child {
-    padding: 35px 0 0;
-    border-left: none;
-    border-top: 1px solid rgba(229, 211, 163, 0.25);
-  }
-
-  .approach-item:first-child {
-    border-top: none;
-    padding-top: 0;
-  }
-
-
-  /* ABOUT DETAILS */
-
-  .about-details {
-    padding: 90px 6%;
-    grid-template-columns: 1fr;
-    gap: 60px;
-  }
-
-  .details-accent {
-    max-width: 280px;
-  }
-
-  .details-accent span {
-    font-size: 130px;
-  }
-
-
-  /* ABOUT CLOSING */
-
-  .about-closing {
-    min-height: 60vh;
-    padding: 90px 6%;
-  }
-
-  .about-closing h2 {
-    font-size: clamp(52px, 14vw, 80px);
-  }
-
-
-  /* SERVICES INTRO */
-
-  .services-intro {
-    min-height: 65vh;
-    padding: 50px 6% 80px;
-  }
-
-  .services-intro-title {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .services-intro-title h1 {
-    font-size: clamp(42px, 11vw, 60px);
-  }
-
-  .services-intro-title h1 span {
-    margin-left: 0;
-    display: block;
-  }
-
-
-  /* SERVICES LIST */
-
-  .services-list {
-    padding: 0 6% 80px;
-  }
-
-  .service-item {
-    grid-template-columns: 45px 1fr;
-    gap: 15px;
-    padding: 30px 0;
-  }
-
-  .service-item p {
-    grid-column: 2;
-  }
-
-  .service-item h2 {
-    font-size: clamp(34px, 9vw, 48px);
-  }
-
-  .service-item:hover {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-    /* GALLERY */
-
-  .gallery-intro {
-    min-height: 55vh;
-    padding: 50px 6% 70px;
-  }
-
-  .gallery-intro-content {
-    grid-template-columns: 1fr;
-    gap: 35px;
-  }
-
-  .gallery-intro-content h1 {
-    font-size: clamp(40px, 11vw, 58px);
-    line-height: 1;
-  }
-
-  .gallery-intro-content h1 span {
-    display: block;
-    margin-left: 0;
-    margin-top: 5px;
-  }
-
-  .gallery-intro-content > p {
-    max-width: 300px;
-  }
-
-  .gallery-featured {
-    margin: 0 6% 80px;
-    height: 55vh;
-  }
-
-  .gallery-featured-caption {
-    left: 15px;
-    bottom: 15px;
-    gap: 12px;
-    padding: 10px 12px;
-  }
-
-  .gallery-featured-caption p {
-    font-size: 7px;
-  }
-
-  .gallery-grid {
-    padding: 0 6% 90px;
-    grid-template-columns: 1fr;
-    gap: 35px;
-  }
-
-  .gallery-large,
-  .gallery-small,
-  .gallery-wide,
-  .gallery-final {
-    grid-column: auto;
-    width: 100%;
-    height: 450px;
-    margin: 0;
-  }
-
-  .gallery-item span {
-    opacity: 1;
-    transform: none;
-    left: 15px;
-    bottom: 15px;
-    font-size: 7px;
-  }
-
-  .gallery-item::after {
-    opacity: 1;
-  }
- /* SERVICES NOTE */
-
-  .services-note {
-    padding: 80px 6%;
-    grid-template-columns: 1fr;
-    gap: 50px;
-  }
-
-  .services-note-image {
-    height: 420px;
-  }
-
-  .services-note-content h2 {
-    font-size: clamp(45px, 11vw, 65px);
-  }
-
-  .services-note-content > p:last-child {
-    max-width: 320px;
-  }
-    /* PROCESS */
-
-  .process-intro {
-    min-height: 60vh;
-    padding: 50px 6% 80px;
-  }
-
-  .process-intro-content {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .process-intro-content h1 {
-    font-size: clamp(42px, 11vw, 60px);
-  }
-
-  .process-intro-content h1 span {
-    display: block;
-    margin-left: 0;
-    margin-top: 5px;
-  }
-
-  .process-intro-content > p {
-    max-width: 300px;
-  }
-
-  .process-steps {
-    padding: 20px 6% 90px;
-  }
-
-  .process-step {
-    grid-template-columns: 50px 1fr;
-    gap: 20px;
-    padding: 45px 0;
-  }
-
-  .process-step-number {
-    font-size: 26px;
-  }
-
-  .process-step-content h2 {
-    font-size: clamp(42px, 11vw, 58px);
-  }
-
-  .process-step-content > p:last-child {
-    max-width: 100%;
-    font-size: 12px;
-  }
-    .process-closing {
-    padding: 80px 6%;
-  }
-
-  .process-closing h2 {
-    max-width: 330px;
-    font-size: clamp(36px, 10vw, 52px);
-  }
-    /* CONTACT */
-
-  .contact-intro {
-    min-height: 55vh;
-    padding: 50px 6% 70px;
-  }
-
-  .contact-intro-content {
-    grid-template-columns: 1fr;
-    gap: 35px;
-  }
-
-  .contact-intro-content h1 {
-    font-size: clamp(42px, 11vw, 60px);
-  }
-
-  .contact-intro-content h1 span {
-    margin-top: 5px;
-  }
-
-  .contact-intro-content > p {
-    max-width: 300px;
-  }
-    .contact-section {
-    padding: 80px 6%;
-    grid-template-columns: 1fr;
-    gap: 70px;
-  }
-
-  .contact-info {
-    max-width: 100%;
-  }
-
-  .contact-info h2 {
-    font-size: clamp(42px, 11vw, 58px);
-  }
-
-  .contact-description {
-    max-width: 320px;
-  }
-
-  .contact-details {
-    margin-top: 45px;
-  }
-
-  .contact-form {
-    gap: 30px;
-  }
-    .contact-submit {
-    width: 100%;
-    padding: 15px 20px;
-  }
-
-  .form-group input,
-  .form-group select,
-  .form-group textarea {
-    font-size: 13px;
-  }
-  
-
-}
 button:focus-visible,
 a:focus-visible,
 input:focus-visible,
@@ -1733,31 +1270,1008 @@ textarea:focus-visible {
 }
 
 
-/* SMALL MOBILE */
 
-@media (max-width: 480px) {
-  .logo {
-    font-size: 25px;
+
+/* 
+   RESPONSIVE DESIGN
+ */
+
+/* TABLET + SMALL LAPTOP */
+@media (max-width: 1100px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 22px 5%;
+  }
+
+  .nav-links {
+    gap: 22px;
+    margin-right: 25px;
   }
 
   .nav-button {
-    padding: 9px 11px;
+    padding: 11px 16px;
   }
 
+  /* HOME */
   .hero {
-    padding-top: 45px;
+    gap: 45px;
+    padding: 60px 5%;
+  }
+
+  .hero-image {
+    height: 540px;
+  }
+
+  /* ABOUT */
+  .about-hero {
+    padding: 50px 6%;
+  }
+
+  .about-hero-title {
+    left: 6%;
+    width: 43%;
+  }
+
+  .about-hero-image {
+    right: 6%;
+    width: 45%;
+  }
+
+  .about-hero-description {
+    left: 6%;
+  }
+
+  .about-philosophy {
+    padding: 90px 6%;
+    gap: 0;
+  }
+
+  .philosophy-panel {
+    padding: 60px 50px;
+  }
+
+  .about-approach {
+    padding: 100px 6%;
+  }
+
+  .approach-item {
+    padding: 0 30px;
+  }
+
+  .about-details {
+    padding: 100px 7%;
+    gap: 60px;
+  }
+
+  /* SERVICES */
+  .services-intro {
+    padding: 60px 6% 90px;
+  }
+
+  .services-intro-title {
+    gap: 50px;
+  }
+
+  .services-list {
+    padding: 0 6% 100px;
+  }
+
+  .service-item {
+    gap: 30px;
+  }
+
+  .services-note {
+    padding: 100px 6%;
+    gap: 60px;
+  }
+
+  .services-note-image {
+    height: 520px;
+  }
+
+  /* GALLERY */
+  .gallery-intro {
+    padding: 60px 6% 90px;
+  }
+
+  .gallery-intro-content {
+    gap: 50px;
+  }
+
+  .gallery-featured {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .gallery-grid {
+    padding-left: 6%;
+    padding-right: 6%;
+    gap: 50px 30px;
+  }
+
+  .gallery-large {
+    height: 560px;
+  }
+
+  .gallery-small {
+    height: 420px;
+  }
+
+  .gallery-wide {
+    height: 450px;
+  }
+
+  .gallery-final {
+    height: 450px;
+  }
+
+  /* PROCESS */
+  .process-intro {
+    padding: 60px 6% 90px;
+  }
+
+  .process-intro-content {
+    gap: 50px;
+  }
+
+  .process-steps {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .process-step {
+    gap: 50px;
+  }
+
+  /* CONTACT */
+  .contact-intro {
+    padding: 60px 6% 80px;
+  }
+
+  .contact-intro-content {
+    gap: 50px;
+  }
+
+  .contact-section {
+    padding: 90px 6%;
+    gap: 70px;
+  }
+}
+
+
+/* TABLET */
+@media (max-width: 900px) {
+
+  /* NAVBAR */
+  .navbar {
+    flex-wrap: wrap;
+    row-gap: 18px;
+  }
+
+  .nav-links {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 15px;
+    border-top: 1px solid rgba(74, 14, 27, 0.15);
+  }
+
+  .nav-links a {
+    font-size: 11px;
+  }
+
+  /* HOME */
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 45px;
+    min-height: auto;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+
+  .hero-content {
+    max-width: 700px;
+  }
+
+  .hero-image {
+    height: 560px;
+  }
+
+  /* ABOUT HERO */
+  .about-hero {
+    min-height: 900px;
+  }
+
+  .about-hero-title {
+    top: 18%;
+    width: 55%;
+  }
+
+  .about-hero-image {
+    top: 28%;
+    right: 6%;
+    width: 48%;
+    height: 58%;
+  }
+
+  .about-hero-description {
+    bottom: 7%;
+  }
+
+  /* ABOUT PHILOSOPHY */
+  .about-philosophy {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .philosophy-image {
+    min-height: 550px;
+  }
+
+  .philosophy-panel {
+    min-height: 500px;
+  }
+
+  /* ABOUT APPROACH */
+  .approach-words {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .approach-item,
+  .approach-item:first-child {
+    padding: 35px 0;
+    border-left: none;
+    border-top: 1px solid rgba(229, 211, 163, 0.25);
+  }
+
+  .approach-item:first-child {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .approach-item p {
+    max-width: 450px;
+  }
+
+  /* ABOUT DETAILS */
+  .about-details {
+    grid-template-columns: 1fr;
+    gap: 70px;
+  }
+
+  .details-accent {
+    max-width: 360px;
+  }
+
+  /* SERVICES */
+  .services-intro-title {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .services-intro-title h1 span {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .service-item {
+    grid-template-columns: 50px 1fr;
+    gap: 15px 25px;
+  }
+
+  .service-item p {
+    grid-column: 2;
+  }
+
+  .services-note {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .services-note-image {
+    height: 500px;
+  }
+
+  /* GALLERY */
+  .gallery-intro-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .gallery-intro-content h1 span {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .gallery-featured {
+    height: 60vh;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .gallery-large,
+  .gallery-small,
+  .gallery-wide,
+  .gallery-final {
+    grid-column: auto;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+  }
+
+  /* PROCESS */
+  .process-intro-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .process-intro-content h1 span {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .process-step {
+    grid-template-columns: 60px 1fr;
+    gap: 30px;
+  }
+
+  /* CONTACT */
+  .contact-intro-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .contact-section {
+    grid-template-columns: 1fr;
+    gap: 70px;
+  }
+
+  .contact-info {
+    max-width: 600px;
+  }
+}
+
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    padding: 18px 5%;
+    column-gap: 15px;
+    row-gap: 16px;
+  }
+
+  .logo {
+    font-size: 27px;
+  }
+
+  .nav-button {
+    margin-left: auto;
+    padding: 10px 13px;
+    font-size: 9px;
+  }
+
+  .nav-links {
+    gap: 10px;
+    padding-top: 14px;
+  }
+
+  .nav-links a {
+    font-size: 9px;
+  }
+
+  /* HOME */
+  .hero {
+    padding: 50px 6% 65px;
+    gap: 40px;
   }
 
   .hero-label {
+    margin-bottom: 18px;
     font-size: 9px;
     letter-spacing: 2px;
   }
 
   .hero h1 {
-    font-size: 56px;
+    font-size: clamp(52px, 15vw, 72px);
+    line-height: 0.9;
+  }
+
+  .hero-description {
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .hero-buttons {
+    gap: 18px;
+    margin-top: 30px;
+  }
+
+  .primary-button {
+    padding: 14px 20px;
+  }
+
+  .secondary-button {
+    font-size: 11px;
   }
 
   .hero-image {
+    height: 420px;
+  }
+
+
+  /* ABOUT HERO */
+  .about-hero {
+    min-height: 780px;
+    padding: 35px 6%;
+  }
+
+  .about-background-letter {
+    top: 10%;
+    left: -5%;
+    font-size: 100vw;
+  }
+
+  .about-top-label {
+    top: 35px;
+    left: 6%;
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+  .about-hero-title {
+    top: 16%;
+    left: 6%;
+    width: 88%;
+  }
+
+  .about-hero-title p {
+    margin-bottom: 10px;
+    font-size: 9px;
+    letter-spacing: 3px;
+  }
+
+  .about-hero-title h1 {
+    font-size: clamp(52px, 15vw, 76px);
+    line-height: 0.88;
+  }
+
+  .about-hero-title h1 span {
+    margin-left: 25px;
+  }
+
+  .about-hero-image {
+    top: 43%;
+    right: 6%;
+    width: 78%;
+    height: 35%;
+  }
+
+  .about-hero-description {
+    bottom: 5%;
+    left: 6%;
+    width: 78%;
+  }
+
+  .about-hero-description p {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+
+
+  /* ABOUT PHILOSOPHY */
+  .about-philosophy {
+    padding: 65px 6%;
+    gap: 30px;
+  }
+
+  .philosophy-image {
+    min-height: 400px;
+  }
+
+  .philosophy-panel {
+    min-height: 470px;
+    padding: 55px 30px;
+  }
+
+  .philosophy-number {
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+  }
+
+  .philosophy-label {
+    margin-bottom: 25px;
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+  .philosophy-panel h2 {
+    font-size: clamp(48px, 13vw, 65px);
+  }
+
+  .philosophy-line {
+    margin: 30px 0;
+  }
+
+  .philosophy-text {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+
+  /* ABOUT APPROACH */
+  .about-approach {
+    padding: 75px 6%;
+  }
+
+  .approach-header {
+    padding-bottom: 25px;
+  }
+
+  .approach-header p {
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+  .approach-header span {
+    font-size: 20px;
+  }
+
+  .approach-words {
+    margin-top: 45px;
+  }
+
+  .approach-item {
+    padding: 30px 0;
+  }
+
+  .approach-item h3 {
+    margin: 25px 0 15px;
+    font-size: clamp(45px, 13vw, 60px);
+  }
+
+  .approach-item p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+
+  /* ABOUT DETAILS */
+  .about-details {
+    padding: 75px 6%;
+    gap: 55px;
+  }
+
+  .details-label {
+    margin-bottom: 20px;
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+  .details-content h2 {
+    font-size: clamp(48px, 13vw, 68px);
+  }
+
+  .details-text {
+    margin-top: 25px;
+    font-size: 12px;
+  }
+
+  .details-accent {
+    max-width: 270px;
+  }
+
+  .details-accent span {
+    font-size: 120px;
+  }
+
+  .details-accent p {
+    bottom: 25px;
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+
+  /* ABOUT CLOSING */
+  .about-closing {
+    min-height: 560px;
+    padding: 80px 6%;
+  }
+
+  .about-closing > p {
+    margin-bottom: 25px;
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+  .about-closing h2 {
+    font-size: clamp(48px, 13vw, 70px);
+  }
+
+  .closing-button {
+    margin-top: 40px;
+    padding: 14px 22px;
+    font-size: 10px;
+  }
+
+
+  /* SERVICES */
+  .services-intro {
+    min-height: 560px;
+    padding: 50px 6% 70px;
+  }
+
+  .services-intro-top,
+  .gallery-intro-top,
+  .process-intro-top,
+  .contact-intro-top {
+    padding-bottom: 18px;
+  }
+
+  .services-intro-top p,
+  .gallery-intro-top p,
+  .process-intro-top p,
+  .contact-intro-top p {
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+  .services-intro-top span,
+  .gallery-intro-top span,
+  .process-intro-top span,
+  .contact-intro-top span {
+    font-size: 20px;
+  }
+
+  .services-intro-title {
+    gap: 30px;
+  }
+
+  .services-intro-title h1 {
+    font-size: clamp(42px, 12vw, 58px);
+  }
+
+  .services-intro-title > p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  .services-list {
+    padding: 0 6% 75px;
+  }
+
+  .service-item {
+    grid-template-columns: 35px 1fr;
+    gap: 12px 15px;
+    padding: 28px 0;
+  }
+
+  .service-item > span {
+    font-size: 9px;
+  }
+
+  .service-item h2 {
+    font-size: clamp(32px, 9vw, 45px);
+  }
+
+  .service-item p {
+    font-size: 11px;
+    line-height: 1.8;
+  }
+
+  .service-item:hover {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: transparent;
+  }
+
+  .service-item h2::after {
+    display: none;
+  }
+
+  .services-note {
+    padding: 75px 6%;
+    gap: 40px;
+  }
+
+  .services-note-image {
     height: 380px;
+  }
+
+  .services-note-content h2 {
+    font-size: clamp(44px, 12vw, 62px);
+  }
+
+  .services-note-content > p:last-child {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+
+  /* GALLERY */
+  .gallery-intro {
+    min-height: 500px;
+    padding: 50px 6% 70px;
+  }
+
+  .gallery-intro-content {
+    gap: 30px;
+  }
+
+  .gallery-intro-content h1 {
+    font-size: clamp(40px, 11vw, 56px);
+  }
+
+  .gallery-intro-content > p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  .gallery-featured {
+    margin: 0 6% 70px;
+    height: 470px;
+  }
+
+  .gallery-featured-caption {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    gap: 10px;
+    padding: 9px 11px;
+  }
+
+  .gallery-featured-caption span {
+    font-size: 17px;
+  }
+
+  .gallery-featured-caption p {
+    font-size: 7px;
+    letter-spacing: 1.5px;
+  }
+
+  .gallery-grid {
+    padding: 0 6% 75px;
+    gap: 30px;
+  }
+
+  .gallery-large,
+  .gallery-small,
+  .gallery-wide,
+  .gallery-final {
+    height: 400px;
+  }
+
+  .gallery-item span {
+    left: 12px;
+    bottom: 12px;
+    font-size: 7px;
+    padding: 7px 9px;
+  }
+
+
+  /* PROCESS */
+  .process-intro {
+    min-height: 500px;
+    padding: 50px 6% 70px;
+  }
+
+  .process-intro-content {
+    gap: 30px;
+  }
+
+  .process-intro-content h1 {
+    font-size: clamp(40px, 11vw, 56px);
+  }
+
+  .process-intro-content > p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  .process-steps {
+    padding: 10px 6% 75px;
+  }
+
+  .process-step {
+    grid-template-columns: 40px 1fr;
+    gap: 15px;
+    padding: 40px 0;
+  }
+
+  .process-step-number {
+    font-size: 23px;
+  }
+
+  .process-step-content > p:first-child {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .process-step-content h2 {
+    font-size: clamp(40px, 11vw, 55px);
+  }
+
+  .process-step-content > p:last-child {
+    font-size: 11px;
+    line-height: 1.8;
+  }
+
+  .process-closing {
+    padding: 75px 6%;
+  }
+
+  .process-closing > p {
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+  .process-closing h2 {
+    max-width: 330px;
+    font-size: clamp(34px, 10vw, 48px);
+  }
+
+
+  /* CONTACT */
+  .contact-intro {
+    min-height: 500px;
+    padding: 50px 6% 70px;
+  }
+
+  .contact-intro-content {
+    gap: 30px;
+  }
+
+  .contact-intro-content h1 {
+    font-size: clamp(40px, 11vw, 56px);
+  }
+
+  .contact-intro-content > p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  .contact-section {
+    padding: 75px 6%;
+    gap: 55px;
+  }
+
+  .contact-label {
+    margin-bottom: 22px;
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+
+  .contact-info h2 {
+    font-size: clamp(40px, 11vw, 56px);
+  }
+
+  .contact-description {
+    margin-top: 28px;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  .contact-details {
+    margin-top: 40px;
+    gap: 22px;
+  }
+
+  .contact-details span {
+    font-size: 7px;
+  }
+
+  .contact-details p {
+    font-size: 11px;
+  }
+
+  .contact-form {
+    gap: 27px;
+  }
+
+  .form-group label {
+    font-size: 7px;
+    letter-spacing: 2px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 13px 0;
+    font-size: 12px;
+  }
+
+  .contact-submit {
+    width: 100%;
+    margin-top: 5px;
+    padding: 14px 20px;
+  }
+}
+
+
+/* VERY SMALL PHONES */
+@media (max-width: 380px) {
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .nav-button {
+    padding: 9px 10px;
+    font-size: 8px;
+  }
+
+  .nav-links a {
+    font-size: 8px;
+  }
+
+  .hero {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .hero h1 {
+    font-size: 51px;
+  }
+
+  .hero-image {
+    height: 350px;
+  }
+
+  .about-hero {
+    min-height: 720px;
+  }
+
+  .about-hero-title h1 {
+    font-size: 50px;
+  }
+
+  .about-hero-image {
+    height: 32%;
+  }
+
+  .philosophy-image {
+    min-height: 350px;
+  }
+
+  .philosophy-panel {
+    padding: 45px 25px;
+  }
+
+  .gallery-featured {
+    height: 420px;
+  }
+
+  .gallery-large,
+  .gallery-small,
+  .gallery-wide,
+  .gallery-final {
+    height: 350px;
+  }
+
+  .process-step {
+    grid-template-columns: 32px 1fr;
+    gap: 12px;
+  }
+
+  .contact-section {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
